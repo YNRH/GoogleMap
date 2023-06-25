@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".destinos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VOLVER A LISTA" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F36C2D"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="DESTINO"
+                android:textColor="#E3DDDD"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblDestino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="lblDestino"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F36C2D"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="COORDENADAS"
+                android:textColor="#E3DDDD"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblCoordenadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="lblCoordenadas"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F36C2D"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="INFORMACIÓN"
+                android:textColor="#E3DDDD"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lblInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="lblInfo"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F36C2D"
+                android:gravity="center"
+                android:padding="4sp"
+                android:text="IMAGEN"
+                android:textColor="#E3DDDD"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="380dp"
+                android:layout_height="320dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_launcher_background"
+                /> <!-- tools:srcCompat="@tools:sample/avatars" -->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
